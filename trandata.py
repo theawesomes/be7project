@@ -46,15 +46,15 @@ class Picture:
 training_data=[]
 fnames=[]
 for j in range(0,26):
-    for i in range(0,60):
-        if i in [40,46,48]:
+    for i in range(0,72):
+        if i in [69]:
             continue
         else:
             fnames.append(chr(j+97)+str(i)+'.png')
 #choice=raw_input("Do you Want to add an image (y or n): ")
 for k in range(len(fnames)):
     path=fnames[k]
-    p=Picture('img\\'+path)
+    p=Picture('img/'+path)
     x=p.getVector()
     a=np.array([x])
     y=path[0]

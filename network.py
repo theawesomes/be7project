@@ -121,8 +121,7 @@ class Network(object):
         return (nabla_b, nabla_w)
 
     def predict1(self, x1):
-        """wtfkjxzcxjkxkjvcmv,cccccccccccccccccccccccccmvbmvnbvnbkk
-		fkkfkxll,xblllllllllllll!!!!!!."""
+        """The Function Predicts the value by running the data through the network and then printing the character according to the ASCII Value"""
         y=self.feedforward(x1)
         x=np.argmax(y)
         x+=97
