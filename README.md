@@ -1,14 +1,4 @@
 
-## Hyper Parameters for Network
-Hidden Layers : 2, first is 60 and second is 50
-Epochs : 600
-MiniBatch Size : 10
-ETA(Learning Rate) : 3.0
-## Accuracy obtained on these parameters :
-25/26 Characters Recognized from test data (97% Accurate)
-
-
-
 # Handwriting Recognition Using Neural Network
 
 # Problem Statement
@@ -25,6 +15,8 @@ ETA(Learning Rate) : 3.0
     * [Training Data](#training-data)
     * [Image Resizing](#image-resizing)
     * [Testing Code](#testing -code)
+    * [Hyper Parameters for Network](#hyper-parameters-for-network)
+    * [Accuracy obtained on these parameters](#accuracy-obtained-on-these-parameters)
 * [User Guide](#user-guide)
     * [Getting Started](#getting-started)
 
@@ -41,8 +33,8 @@ First, you have to install git.Follow the article: [How to install git](https://
 Now, open terminal in any folder,where you want to clone the repository, and type **git clone copied_URL**, and the project will be cloned to your local PC.
 
 ## Install Python
-We have used python 2.7 for this project, so make sure to install python **2.7** if you're going to run this project!
 
+We have used python 2.7 for this project, so make sure to install python **2.7** if you're going to run this project!
 Follow: [Download Python2.7 For Windows](https://www.python.org/downloads/)
 
 if you use ubuntu, then type command **sudo apt-get install python** to install python 2.7
@@ -63,6 +55,14 @@ For PIL, and numpy, it'll be better if you install **Anaconda**, which contains 
 ## Image Resizing
 
 ## Testing Code
+
+## Hyper Parameters for Network
+Hidden Layers : 2, first is 60 and second is 50
+Epochs : 600
+MiniBatch Size : 10
+ETA(Learning Rate) : 3.0
+## Accuracy obtained on these parameters :
+25/26 Characters Recognized from test data (97% Accurate)
 
 # User Guide
 
